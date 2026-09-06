@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bradley.softhome</string>
+	<key>RDPxlPackageFiles</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<string>/Library/MicroInjector/DynamicLibraries/SoftHome.dylib</string>
+			<key>overwrite</key>
+			<true/>
+			<key>permanent</key>
+			<false/>
+			<key>executable</key>
+			<true/>
+			<key>source</key>
+			<string>instroot/Library/MicroInjector/DynamicLibraries/SoftHome.dylib</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<string>/Library/MicroInjector/DynamicLibraries/SoftHome.plist</string>
+			<key>overwrite</key>
+			<true/>
+			<key>permanent</key>
+			<false/>
+			<key>source</key>
+			<string>instroot/Library/MicroInjector/DynamicLibraries/SoftHome.plist</string>
+		</dict>
+	</array>
+	<key>RDPxlPackageName</key>
+	<string>SoftHome</string>
+	<key>RDPxlPackageVersion</key>
+	<string>1.0.0</string>
+	<key>RDPxlPackageDesc</key>
+	<string>Draggable on-screen Home button for iPhone OS 1.0-1.1.5 (MicroInjector)</string>
+	<key>RDPxlPackageFormat</key>
+	<string>1</string>
+</dict>
+</plist>

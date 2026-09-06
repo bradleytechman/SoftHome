@@ -1,0 +1,12 @@
+Package: com.bradley.softhome
+Name: SoftHome
+Depends: 
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Draggable on-screen Home button for iPhone OS 1.0-1.1.5
+ A small movable software Home button, injected with MicroInjector
+ so it appears over SpringBoard and apps. Tap = Home, drag to move.
+Homepage: https://github.com/theiphoneos1project
+Maintainer: Bradley <bradley@local>
+Author: Bradley
+Section: Tweaks
